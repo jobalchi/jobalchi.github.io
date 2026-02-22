@@ -6,7 +6,7 @@ description         : >-
                       and never broke production.
 baseurl             : ""            # User site (<your-username>.github.io) must use empty baseurl
 repository          : jobalchi/jobalchi.github.io      # GitHub repository in owner/name format
-remote_theme        : yousinix/jobalchi
+remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
