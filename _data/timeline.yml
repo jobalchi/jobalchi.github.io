@@ -1,17 +1,11 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Master of Science (M.S.), Mechanical Engineering, Ulsan National Institute of Science and Technology
+  from: 2024, Feb
+  to: Expected 2026, Aug
+  description: >
+    High-assurance Mobility Control Lab, advised by Prof. Cheolhyeon Kwon, Ph.D. Research Focus: Autonomous Driving, Decision-making, Reinforcement Learning. GPA: 3.63/4.30. Thesis: To be updated.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Bachelor of Science (B.S.), Major in Robotics Convergence Engineering, Hanyang University ERICA
+  from: 2019, Feb
+  to: 2024, Mar
+  description: >
+    GPA: 4.19/4.50 (Major: 4.21/4.50).
