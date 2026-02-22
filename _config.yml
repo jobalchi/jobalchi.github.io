@@ -4,8 +4,8 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/jobalchi"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : jobalchi.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+baseurl             : ""            # User site (<your-username>.github.io) must use empty baseurl
+repository          : jobalchi/jobalchi.github.io      # GitHub repository in owner/name format
 remote_theme        : yousinix/jobalchi
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
