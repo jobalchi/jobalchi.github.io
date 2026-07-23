@@ -1,0 +1,9 @@
+<div class="col-lg">
+  <h2 class="mb-3">{{ include.title }}</h2>
+
+  <ul>
+    {% for skill in include.source %}
+      <li class="mb-2">{{ skill.name }}</li>
+    {% endfor %}
+  </ul>
+</div>

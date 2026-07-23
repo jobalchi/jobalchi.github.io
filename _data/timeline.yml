@@ -4,7 +4,6 @@
   description: |
     <span class="text-primary font-weight-bold">Ulsan National Institute of Science and Technology (UNIST)</span><br>
     Advised by Prof. Cheolhyeon Kwon<br>
-    Research Focus: Autonomous Driving, Decision-making, Reinforcement Learning<br>
     GPA: 3.63/4.30<br>
     Thesis: An Active Learning Framework for Predicting Opponent Models in Autonomous Racing
 
@@ -13,6 +12,7 @@
   to: 2024, Mar
   description: |
     <span class="text-primary font-weight-bold">Hanyang University ERICA</span><br>
+    Advised by Prof. Minsung Kang<br>
     GPA: 4.19/4.50 (Major: 4.21/4.50)<br>
     Thesis: 공유 모빌리티 정리를 위한 비전 경로 추정 알고리즘 기반 실외 자율주행과 리프트 시스템 개발<br>
     Development of an Outdoor Autonomous Driving and Lift System Based on a Vision-Based Path Estimation Algorithm for Reorganizing Shared Mobility Vehicles
