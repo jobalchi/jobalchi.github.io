@@ -11,10 +11,22 @@ Honors, awards, and scholarships received throughout my academic and professiona
 
 ## Honors & Awards
 
-- **Award Name** — Awarding Organization, Year  
-  A brief description of the award and achievement.
+- **2nd Place** — ICRA RoboRacer Autonomous Grand Prix, May 2025  
+  Achieved 2nd place in the autonomous racing competition.
+
+- **Silver Award** — BTS(Brain to Society) U-Challenge Festival, January 2025  
+  Received the Silver Award at the BTS U-Challenge Festival.
+
+- **3rd Place** — ICCAS F1TENTH Korea Championship, October 2024  
+  Achieved 3rd place in the autonomous racing competition.
 
 ## Scholarships
 
-- **Scholarship Name** — Institution, Year  
-  A brief description of the scholarship.
+- **SHARE Outstanding Achievement Scholarship** — Spring Semester, 2023  
+  Awarded for outstanding achievement in the SHARE program.
+
+- **Hanyang Brain Scholarship (Academic Excellence)** — Fall Semester, 2022  
+  Awarded for outstanding academic achievement.
+
+- **Hanyang Brain Scholarship (Academic Excellence)** — Spring Semester, 2020  
+  Awarded for outstanding academic achievement.

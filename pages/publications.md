@@ -16,8 +16,8 @@ A selection of journal articles, conference papers, and other research publicati
 
 ## Conference Papers
 
-- **Paper Title**  
-  Authors. *Conference Name*, Year.
+- **Reinforcement Learning-Guided MPC for Autonomous Racing**  
+  **Seongjun Lee**, Hojin Lee and Cheolhyeon Kwon. *ASCC 2026: 15th Asian Control Conference*, June 2026.
 
 ## Preprints
 
