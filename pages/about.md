@@ -21,5 +21,43 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="row">
-{% include about/timeline.html %}
+{% include about/timeline.html title="Society" source=site.data.society variant="society" %}
 </div>
+
+<div class="row">
+{% include about/timeline.html title="Experience" source=site.data.experience variant="experience" %}
+</div>
+
+<div class="row">
+{% include about/timeline.html title="Education" source=site.data.timeline variant="education" %}
+</div>
+
+<style>
+  .timeline-section-education > h2 {
+    color: #007bff;
+  }
+
+  .timeline-section-experience > h2 {
+    color: #fd7e14;
+  }
+
+  .timeline-section-experience .timeline-body::after {
+    background-color: #fd7e14;
+  }
+
+  .timeline-section-experience .timeline-item::after {
+    border-color: #fd7e14;
+  }
+
+  .timeline-section-society > h2 {
+    color: #28a745;
+  }
+
+  .timeline-section-society .timeline-body::after {
+    background-color: #28a745;
+  }
+
+  .timeline-section-society .timeline-item::after {
+    border-color: #28a745;
+  }
+</style>
