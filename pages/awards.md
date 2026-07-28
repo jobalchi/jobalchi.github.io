@@ -2,7 +2,7 @@
 layout: page
 title: Awards
 permalink: /awards/
-weight: 3
+weight: 4
 ---
 
 # **Awards**
