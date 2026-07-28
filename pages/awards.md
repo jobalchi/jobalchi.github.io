@@ -23,7 +23,7 @@ Honors, awards, and scholarships received throughout my academic and professiona
 ## Scholarships
 
 - **SHARE Outstanding Achievement Scholarship** — Spring Semester, 2023  
-  Awarded for outstanding achievement in the SHARE program.
+  Awarded for outstanding achievement in the SHARE(SHared AI-Robotics Education) program.
 
 - **Hanyang Brain Scholarship (Academic Excellence)** — Fall Semester, 2022  
   Awarded for outstanding academic achievement.
