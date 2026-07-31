@@ -11,29 +11,21 @@ Honors, awards, and scholarships received throughout my academic and professiona
 
 ## Honors & Awards
 
-- **2nd Place** — ICRA RoboRacer Autonomous Grand Prix, May 2025  
-  Achieved 2nd place in the autonomous racing competition.
+- **2nd Place** — ICRA RoboRacer Autonomous Grand Prix, May 2025
 
-- **Silver Award** — BTS(Brain to Society) U-Challenge Festival, January 2025  
-  Received the Silver Award at the BTS U-Challenge Festival.
+- **Silver Award** — BTS(Brain to Society) U-Challenge Festival, January 2025
 
-- **3rd Place** — ICCAS F1TENTH Korea Championship, October 2024  
-  Achieved 3rd place in the autonomous racing competition.
+- **3rd Place** — ICCAS F1TENTH Korea Championship, October 2024
 
-- **Excellence Award** — Division of Smart Convergence Engineering Graduation Project Exhibition, Robotics Major, December 2023  
-  Hanyang University ERICA, Korea.
+- **Excellence Award** — Division of Smart Convergence Engineering Graduation Project Exhibition, Robotics Major, December 2023
 
-- **Bronze Award** — 2023 88 Robot Day SHARE Challenge, August 2023  
-  SHared AI-Robotics Education, Korea.
+- **Bronze Award** — 2023 88 Robot Day SHARE Challenge, August 2023
 
-- **Second Prize** — Digital Innovation Sharing University Robotics Conference, January 2023  
-  SHared AI-Robotics Education, Korea.
+- **Second Prize** — Digital Innovation Sharing University Robotics Conference, January 2023
 
-- **Special Award** — 2022 International College Student Creative Car Contest, November 2022  
-  Organizing Committee of International College Student Creative Car Contest, Korea.
+- **Special Award** — 2022 International College Student Creative Car Contest, November 2022
 
-- **Encouragement Award** — 2020 Devicemart ICT Convergence Project Contest, May 2020  
-  Devicemart, Korea.
+- **Encouragement Award** — 2020 Devicemart ICT Convergence Project Contest, May 2020
 
 ## Scholarships
 
