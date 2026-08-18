@@ -1,6 +1,6 @@
 ### Site Settings ###
 title               : Seongjun Lee
-description         : "Welcome! I work on intelligent autonomous systems. :wave:"
+description         : "Welcome! Nice to meet you. :wave:"
 baseurl             : ""            # User site (<your-username>.github.io) must use empty baseurl
 repository          : jobalchi/jobalchi.github.io      # GitHub repository in owner/name format
 remote_theme        : yousinix/portfolYOU
