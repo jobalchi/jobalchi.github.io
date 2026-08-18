@@ -10,8 +10,23 @@ weight: 1
     <h1><strong>About Me</strong></h1>
     <p>
       Hi I am <strong>{{ site.author.name }}</strong> :wave:,<br>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      I am interested in <strong>decision-making under uncertainty</strong> and <strong>optimal policy design</strong> for autonomous driving systems.<br>
+      If you are interested in my work, please feel free to reach out.
     </p>
+    <div class="about-social-links" aria-label="Contact links">
+      <a class="about-social-link about-social-link-email" href="mailto:{{ site.author.email }}" aria-label="Email" title="Email">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        <span>Mail</span>
+      </a>
+      <a class="about-social-link about-social-link-github" href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub">
+        <i class="fab fa-github" aria-hidden="true"></i>
+        <span>GitHub</span>
+      </a>
+      <a class="about-social-link about-social-link-linkedin" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn">
+        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+        <span>LinkedIn</span>
+      </a>
+    </div>
   </div>
   <img
     class="about-profile-image"
@@ -53,6 +68,49 @@ weight: 1
   .about-intro-copy {
     flex: 1;
     min-width: 0;
+  }
+
+  .about-social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 1rem;
+  }
+
+  .about-social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none !important;
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  .about-social-link:hover {
+    transform: translateY(-2px);
+    opacity: 0.8;
+  }
+
+  .about-social-link-email,
+  .about-social-link-email:hover {
+    color: #db4437;
+  }
+
+  .about-social-link-github,
+  .about-social-link-github:hover {
+    color: #333;
+  }
+
+  .about-social-link-linkedin,
+  .about-social-link-linkedin:hover {
+    color: #0077b5;
+  }
+
+  [data-theme="dark"] .about-social-link-github,
+  [data-theme="dark"] .about-social-link-github:hover {
+    color: #f5f5f5;
   }
 
   .about-profile-image {
