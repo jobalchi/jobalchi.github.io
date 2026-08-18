@@ -27,6 +27,12 @@ weight: 1
         <span>LinkedIn</span>
       </a>
     </div>
+    <div class="about-interest-tags" aria-label="Research interests">
+      <span class="about-interest-tag"># Autonomous System</span>
+      <span class="about-interest-tag"># Optimal Policy</span>
+      <span class="about-interest-tag"># Uncertainty-Aware</span>
+      <span class="about-interest-tag"># Reinforcement Learning</span>
+    </div>
   </div>
   <img
     class="about-profile-image"
@@ -111,6 +117,24 @@ weight: 1
   [data-theme="dark"] .about-social-link-github,
   [data-theme="dark"] .about-social-link-github:hover {
     color: #f5f5f5;
+  }
+
+  .about-interest-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+  }
+
+  .about-interest-tag {
+    padding: 0.3rem 0.7rem;
+    color: #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+    border: 1px solid rgba(0, 123, 255, 0.25);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.4;
   }
 
   .about-profile-image {

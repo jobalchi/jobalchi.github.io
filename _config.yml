@@ -1,9 +1,6 @@
 ### Site Settings ###
 title               : Seongjun Lee
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+description         : "Welcome! I work on intelligent autonomous systems. :wave:"
 baseurl             : ""            # User site (<your-username>.github.io) must use empty baseurl
 repository          : jobalchi/jobalchi.github.io      # GitHub repository in owner/name format
 remote_theme        : yousinix/portfolYOU
