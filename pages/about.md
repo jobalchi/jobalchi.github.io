@@ -26,6 +26,10 @@ weight: 1
         <i class="fab fa-linkedin-in" aria-hidden="true"></i>
         <span>LinkedIn</span>
       </a>
+      <a class="about-social-link about-social-link-cv" href="{{ '/assets/files/Seongjun_Lee_CV.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="CV">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+        <span>CV</span>
+      </a>
     </div>
     <div class="about-interest-tags" aria-label="Research interests">
       <span class="about-interest-tag"># Autonomous System</span>
@@ -112,6 +116,11 @@ weight: 1
   .about-social-link-linkedin,
   .about-social-link-linkedin:hover {
     color: #0077b5;
+  }
+
+  .about-social-link-cv,
+  .about-social-link-cv:hover {
+    color: #6f42c1;
   }
 
   [data-theme="dark"] .about-social-link-github,
