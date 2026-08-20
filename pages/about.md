@@ -32,9 +32,10 @@ weight: 1
       </a>
     </div>
     <div class="about-interest-tags" aria-label="Research interests">
-      <span class="about-interest-tag"># Autonomous System</span>
+      <span class="about-interest-tag"># Autonomous Systems</span>
       <span class="about-interest-tag"># Optimal Policy</span>
       <span class="about-interest-tag"># Uncertainty-Aware</span>
+      <span class="about-interest-tag"># Decision-Making</span>
       <span class="about-interest-tag"># Reinforcement Learning</span>
     </div>
   </div>
