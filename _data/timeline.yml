@@ -1,18 +1,26 @@
 - title: M.S. in Mechanical Engineering
+  organization: Ulsan National Institute of Science and Technology (UNIST)
   from: 2024, Mar
   to: 2026, Aug
-  description: |
-    <span class="text-primary font-weight-bold">Ulsan National Institute of Science and Technology (UNIST)</span><br>
-    Advised by Prof. Cheolhyeon Kwon<br>
-    GPA: 3.63/4.30<br>
-    Thesis: An Active Learning Framework for Predicting Opponent Models in Autonomous Racing
+  details:
+    - label: Advisor
+      value: Prof. Cheolhyeon Kwon
+      url: https://hmc.unist.ac.kr/
+    - label: GPA
+      value: 3.63/4.30
+    - label: Thesis
+      value: An Active Learning Framework for Predicting Opponent Models in Autonomous Racing
 
 - title: B.S. in Robotics Convergence Engineering
+  organization: Hanyang University ERICA
   from: 2019, Mar
   to: 2024, Feb
-  description: |
-    <span class="text-primary font-weight-bold">Hanyang University ERICA</span><br>
-    Advised by Prof. Minsung Kang<br>
-    GPA: 4.19/4.50 (Major: 4.21/4.50)<br>
-    Thesis: 공유 모빌리티 정리를 위한 비전 경로 추정 알고리즘 기반 실외 자율주행과 리프트 시스템 개발<br>
-    Development of an Outdoor Autonomous Driving and Lift System Based on a Vision-Based Path Estimation Algorithm for Reorganizing Shared Mobility Vehicles
+  details:
+    - label: Advisor
+      value: Prof. Minsung Kang
+      url: https://www.airolab.co.kr/home
+    - label: GPA
+      value: "4.19/4.50 (Major: 4.21/4.50)"
+    - label: Thesis
+      value: 공유 모빌리티 정리를 위한 비전 경로 추정 알고리즘 기반 실외 자율주행과 리프트 시스템 개발
+      translation: Development of an Outdoor Autonomous Driving and Lift System Based on a Vision-Based Path Estimation Algorithm for Reorganizing Shared Mobility Vehicles

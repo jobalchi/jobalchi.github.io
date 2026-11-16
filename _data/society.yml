@@ -1,23 +1,32 @@
-- title: Mentor
-  from: 2024, Feb
-  to: 2026, Aug
-  description: |
-    <span style="color: #28a745; font-weight: 700;">Korean University Student Automobile Research Forum, Autonomous Driving Team</span>
+- name: Korean University Student Automobile Research Forum
+  team: Autonomous Driving Team
+  links:
+    - label: Naver Blog
+      brand: naver
+      url: https://blog.naver.com/kusarfirst
+      icon: fas fa-blog
+    - label: Instagram
+      brand: instagram
+      url: https://www.instagram.com/kusarfirst
+      icon: fab fa-instagram
+  roles:
+    - title: Mentor
+      from: 2024, Feb
+      to: 2026, Aug
+    - title: Deputy Team Leader
+      from: 2023, Sep
+      to: 2024, Feb
+    - title: Member
+      from: 2023, Mar
+      to: 2023, Aug
 
-- title: Deputy Team Leader
-  from: 2023, Sep
-  to: 2024, Feb
-  description: |
-    <span style="color: #28a745; font-weight: 700;">Korean University Student Automobile Research Forum, Autonomous Driving Team</span>
-
-- title: President
-  from: 2023, Mar
-  to: 2023, Dec
-  description: |
-    <span style="color: #28a745; font-weight: 700;">Division of Smart Convergence Engineering Major Association E-RUS</span>
-
-- title: Member
-  from: 2023, Mar
-  to: 2023, Aug
-  description: |
-    <span style="color: #28a745; font-weight: 700;">Korean University Student Automobile Research Forum, Autonomous Driving Team</span>
+- name: Division of Smart Convergence Engineering Major Association E-RUS
+  links:
+    - label: Instagram
+      brand: instagram
+      url: https://www.instagram.com/hanyang_erica_sce_e_rus
+      icon: fab fa-instagram
+  roles:
+    - title: President
+      from: 2023, Mar
+      to: 2023, Dec

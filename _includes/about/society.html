@@ -1,0 +1,36 @@
+<section class="about-history-section" aria-labelledby="about-society-heading">
+  <h2 id="about-society-heading">Society</h2>
+
+  <ul class="about-history-list about-society-list">
+    {% for organization in site.data.society %}
+      <li class="about-society-group">
+        <div class="about-society-heading">
+          <h3 class="about-society-name">{{ organization.name | escape }}</h3>
+          {% if organization.links %}
+            <div class="about-society-links">
+              {% for link in organization.links %}
+                <a class="about-society-link about-society-link-{{ link.brand | escape }}" href="{{ link.url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{{ organization.name | escape }} {{ link.label | escape }} (opens in a new tab)">
+                  <i class="{{ link.icon | escape }}" aria-hidden="true"></i>
+                  <span>{{ link.label | escape }}</span>
+                </a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+        {% if organization.team %}
+          <p class="about-society-team">{{ organization.team | escape }}</p>
+        {% endif %}
+        <ul class="about-society-roles">
+          {% for role in organization.roles %}
+            <li class="about-history-item">
+              <p class="about-history-date">
+                {{ role.from | date: "%Y.%m" }}{% if role.to %} – {{ role.to | date: "%Y.%m" }}{% endif %}
+              </p>
+              <h4 class="about-society-role">{{ role.title | escape }}</h4>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

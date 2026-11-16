@@ -1,17 +1,38 @@
-<div class="col mt-4 timeline-section-{{ include.variant }}">
-  <h2 class="mb-3">{{ include.title }}</h2>
+<section class="about-history-section" aria-labelledby="about-{{ include.variant }}-heading">
+  <h2 id="about-{{ include.variant }}-heading">{{ include.title }}</h2>
 
-  <div class="timeline-body bg-themed">
+  <ul class="about-history-list">
     {% for item in include.source %}
-      <div class="timeline-item">
-        <div class="content">
-          <h2>{{ item.title }}</h2>
-          <h6 class="date">
-            {{ item.from }}{% if item.to %} — {{ item.to }}{% endif %}
-          </h6>
-          <p>{{ item.description }}</p>
+      <li class="about-history-item">
+        <p class="about-history-date">
+          {{ item.from | date: "%Y.%m" }}{% if item.to %} – {{ item.to | date: "%Y.%m" }}{% endif %}
+        </p>
+        <div class="about-history-content">
+          <h3>{{ item.organization | escape }}</h3>
+          <p class="about-history-subtitle">{{ item.title | escape }}</p>
+          {% if item.details %}
+            <dl class="about-history-details">
+              {% for detail in item.details %}
+                <div class="about-history-detail">
+                  <dt>{{ detail.label | escape }}</dt>
+                  <dd>
+                    {% if detail.url %}
+                      <a class="about-history-detail-link" href="{{ detail.url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{{ detail.value | escape }} (opens in a new tab)">
+                        {{ detail.value | escape }} <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                      </a>
+                    {% else %}
+                      {{ detail.value | escape }}
+                    {% endif %}
+                    {% if detail.translation %}
+                      <span class="about-history-translation" lang="en">{{ detail.translation | escape }}</span>
+                    {% endif %}
+                  </dd>
+                </div>
+              {% endfor %}
+            </dl>
+          {% endif %}
         </div>
-      </div>
+      </li>
     {% endfor %}
-  </div>
-</div>
+  </ul>
+</section>

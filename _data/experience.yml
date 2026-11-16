@@ -1,34 +1,31 @@
 - title: Referee
+  organization: 29th RoboRacer Autonomous Racing Competition
   from: 2026, Aug
-  description: |
-    <span style="color: #fd7e14; font-weight: 700;">29th Roboracer Autonomous Racing Competition</span>
 
 - title: Referee
+  organization: RoboRacer PNU-HYUNSONG CHAMPIONSHIP
   from: 2026, Jan
-  description: |
-    <span style="color: #fd7e14; font-weight: 700;">RoboRacer PNU-HYUNSONG CHAMPIONSHIP</span>
 
 - title: Referee
+  organization: F1TENTH Korea Championship
   from: 2025, Nov
-  description: |
-    <span style="color: #fd7e14; font-weight: 700;">ICCAS F1TENTH Korea Championship</span>
 
 - title: Trainee
+  organization: Hyundai Motor 2023 H-Mobility Class, Autonomous Driving
   from: 2023, Jul
   to: 2023, Sep
-  description: |
-    <span style="color: #fd7e14; font-weight: 700;">Hyundai Motor 2023 H-Mobility Class, Autonomous Driving</span>
 
 - title: Trainee
+  organization: Innovation Center for Engineering Education, Autonomous Driving Robot Expert Course – Computer Vision
   from: 2023, Jul
   to: 2023, Aug
-  description: |
-    <span style="color: #fd7e14; font-weight: 700;">Innovation Center for Engineering Education, Autonomous Driving Robot Expert Course – Computer Vision</span>
 
 - title: Undergraduate Research Assistant
+  organization: Hanyang University ERICA
   from: 2019, Jun
   to: 2019, Dec
-  description: |
-    <span style="color: #fd7e14; font-weight: 700;">Hanyang University ERICA</span><br>
-    Advised by Prof. Minsung Kang<br>
-    Swerve Drive System Design and Control / Robotics Education for High School Students
+  details:
+    - label: Advisor
+      value: Prof. Minsung Kang
+    - label: Project
+      value: Swerve Drive System Design and Control

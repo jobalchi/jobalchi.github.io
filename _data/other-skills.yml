@@ -1,13 +1,21 @@
-- name: ROS 1&2
+- name: PyTorch
+  icon: fas fa-fire
+  brand: pytorch
+
+- name: ROS
+  icon: fas fa-robot
+  brand: ros
   percentage: 90
   color: info
 
 - name: Docker
+  icon: fab fa-docker
+  brand: docker
   percentage: 75
   color: primary
 
 - name: Git
+  icon: fab fa-git-alt
+  brand: git
   percentage: 85
   color: success
-
-- name: SOLIDWORKS

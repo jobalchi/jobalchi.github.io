@@ -1,0 +1,9 @@
+{% assign skills = site.data.programming-skills | concat: site.data.other-skills %}
+<ul class="about-skill-icons" aria-label="Technical skills">
+  {% for skill in skills %}
+    <li class="about-skill-icon about-skill-icon-{{ skill.brand | escape }}">
+      <i class="{{ skill.icon | escape }}" aria-hidden="true"></i>
+      <span>{{ skill.name | escape }}</span>
+    </li>
+  {% endfor %}
+</ul>

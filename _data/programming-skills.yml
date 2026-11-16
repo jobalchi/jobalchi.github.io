@@ -1,7 +1,11 @@
 - name: Python
+  icon: fab fa-python
+  brand: python
   percentage: 90
   color: secondary
 
 - name: C/C++
+  icon: fas fa-code
+  brand: cpp
   percentage: 85
   color: primary
