@@ -1,0 +1,46 @@
+<article class="academic-page{% if page.entry_columns == 2 %} academic-page-two-columns{% endif %}" aria-labelledby="{{ page.title | slugify }}-heading">
+  <header class="academic-page-header">
+    <h1 id="{{ page.title | slugify }}-heading">{{ page.title | escape }}</h1>
+  </header>
+
+  {% for section in page.sections %}
+    <section class="academic-page-section" aria-labelledby="{{ page.title | slugify }}-{{ section.title | slugify }}">
+      <h2 id="{{ page.title | slugify }}-{{ section.title | slugify }}">{{ section.title | escape }}</h2>
+      {% if section.entries %}
+        <ul class="academic-page-list">
+          {% for entry in section.entries %}
+            <li class="academic-page-item">
+              <div class="academic-page-aside">
+                {% if entry.thumbnail %}
+                  <img class="academic-publication-thumbnail" src="{{ entry.thumbnail | relative_url }}" alt="{{ entry.thumbnail_alt | default: entry.title | escape }}"{% if entry.thumbnail_width and entry.thumbnail_height %} width="{{ entry.thumbnail_width }}" height="{{ entry.thumbnail_height }}"{% endif %} loading="lazy" decoding="async">
+                {% endif %}
+                {% if entry.date %}
+                  <p class="academic-page-date">{{ entry.date | escape }}</p>
+                {% endif %}
+              </div>
+              <div class="academic-page-content">
+                <h3>{{ entry.title | escape }}</h3>
+                {% if entry.authors %}
+                  <div class="academic-page-authors">{{ entry.authors | markdownify }}</div>
+                {% endif %}
+                {% if entry.venue %}
+                  <p class="academic-page-venue"><em>{{ entry.venue | escape }}</em></p>
+                {% endif %}
+                {% if entry.description %}
+                  <p class="academic-page-description">{{ entry.description | escape }}</p>
+                {% endif %}
+                {% if page.publication_links %}
+                  {% include publication-links.html entry=entry %}
+                {% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      {% elsif section.message %}
+        <p class="academic-page-message">{{ section.message | escape }}</p>
+      {% endif %}
+    </section>
+  {% endfor %}
+</article>
+
+{% include academic-page-styles.html %}

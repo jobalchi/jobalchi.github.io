@@ -1,0 +1,12 @@
+{% assign publication_link_types = "Paper,Project,Code" | split: "," %}
+<div class="academic-publication-links" role="group" aria-label="Links for {{ include.entry.title | escape }}">
+  {% for link_label in publication_link_types %}
+    {% assign link_key = link_label | downcase | append: "_url" %}
+    {% assign link_url = include.entry[link_key] %}
+    {% if link_url %}
+      <a class="btn academic-publication-link" href="{{ link_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{{ link_label }} for {{ include.entry.title | escape }} (opens in a new tab)">{{ link_label }}</a>
+    {% else %}
+      <button class="btn academic-publication-link" type="button" disabled>{{ link_label }}</button>
+    {% endif %}
+  {% endfor %}
+</div>
