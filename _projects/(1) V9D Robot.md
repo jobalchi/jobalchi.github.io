@@ -1,5 +1,6 @@
 ---
 name: "V9D Robot: Indoor Virtual Tour Assistant"
+year: 2023
 permalink: /projects/v9d-robot/
 tools: [ROS 2, Nav2, Cartographer, Gazebo, Three.js]
 image: /assets/img/projects/v9d-robot/robot-design.png

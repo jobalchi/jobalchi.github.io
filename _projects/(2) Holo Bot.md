@@ -1,5 +1,6 @@
 ---
 name: "Holo Bot: Shared Scooter Recovery Robot"
+year: 2023
 permalink: /projects/holo-bot/
 tools: [ROS 2, Nav2, Sensor Fusion, YOLOv5, ArUco]
 image: /assets/img/projects/holo-bot/robot-design.png

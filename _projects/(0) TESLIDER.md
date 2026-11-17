@@ -1,5 +1,6 @@
 ---
 name: "TESLIDER: Autonomous Driving in KartRider"
+year: 2022
 permalink: /projects/teslider/
 tools: [Python, OpenCV, Tkinter, Computer Vision]
 image: /assets/img/projects/teslider/thumbnail.png
