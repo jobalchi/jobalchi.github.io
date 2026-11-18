@@ -3,7 +3,7 @@ name: "V9D Robot: Indoor Virtual Tour Assistant"
 year: 2023
 permalink: /projects/v9d-robot/
 tools: [ROS 2, Nav2, Cartographer, Gazebo, Three.js]
-image: /assets/img/projects/v9d-robot/robot-design.png
+image: /assets/img/projects/v9d-robot/thumbnail.jpg
 description: An indoor virtual-tour robot combining ROS 2 SLAM, Nav2 obstacle avoidance, Polylabel capture waypoints, and Gazebo simulation.
 demo_url: https://www.youtube.com/watch?v=5P0a5i9b5wk
 demo_video_id: 5P0a5i9b5wk

@@ -25,7 +25,7 @@ videos:
 # TESLIDER
 
 <p class="teslider-project-subtitle">Vision-Based Autonomous Driving in KartRider</p>
-<p class="teslider-project-meta">2022 · Creative Convergence Project I · Team TESLIDER</p>
+<p class="teslider-project-meta">2022 · Creative Convergence Project · Team TESLIDER</p>
 
 TESLIDER is a team project exploring how computer vision can connect game-screen observations to driving actions. Built with Python and OpenCV, the prototype captures the KartRider client window, detects lane markings, and generates keyboard inputs to steer the in-game vehicle.
 

@@ -3,7 +3,7 @@ name: "Holo Bot: Shared Scooter Recovery Robot"
 year: 2023
 permalink: /projects/holo-bot/
 tools: [ROS 2, Nav2, Sensor Fusion, YOLOv5, ArUco]
-image: /assets/img/projects/holo-bot/robot-design.png
+image: /assets/img/projects/holo-bot/thumbnail.jpg
 description: A shared-scooter recovery project connecting outdoor navigation, visual detection, marker-based docking, and a custom lift mechanism.
 demo_video: /assets/videos/projects/holo-bot/demonstration.mp4
 demo_poster: /assets/img/projects/holo-bot/demo-poster.jpg
